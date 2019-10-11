@@ -1,0 +1,15 @@
+Package: dfutils
+Type: Package
+Title: Utility Functions to Work with Tabular Data
+Version: 0.1.0
+Author: Yifu Yan
+Maintainer: Yifu Yan <yifdev1994@hotmail.com>
+Description: Provides utility functions that makes it easier to work with tabular data.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tidyverse
+Suggests:
+    googleway
+RoxygenNote: 6.1.1
