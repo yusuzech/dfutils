@@ -2,6 +2,7 @@
 
 export(du_display_data_shape)
 export(du_google_geocode)
+export(du_log_output)
 export(du_read_excel_ranges)
 export(du_split_df)
 export(du_split_direction)
