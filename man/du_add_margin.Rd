@@ -4,9 +4,16 @@
 \alias{du_add_margin}
 \title{Add margins considering all numeric values in a data frame}
 \usage{
-du_add_margin(df, margin = "both", verbose = TRUE,
-  ignore_columns = NULL, enable_total_margin = TRUE,
-  direction_total_margin = "column", fun.aggregate = sum, ...)
+du_add_margin(
+  df,
+  margin = "both",
+  verbose = TRUE,
+  ignore_columns = NULL,
+  enable_total_margin = TRUE,
+  direction_total_margin = "column",
+  fun.aggregate = sum,
+  ...
+)
 }
 \arguments{
 \item{df}{data frame to add margin to.}

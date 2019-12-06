@@ -4,9 +4,14 @@
 \alias{du_google_geocode}
 \title{get geocode with error handling built in,reasons are given for failed items}
 \usage{
-du_google_geocode(address, apikey, result_type = c("list", "df", "raw"),
+du_google_geocode(
+  address,
+  apikey,
+  result_type = c("list", "df", "raw"),
   multi_coord_handling = c("none", "first", "average"),
-  progress = TRUE, show_summary = TRUE)
+  progress = TRUE,
+  show_summary = TRUE
+)
 }
 \arguments{
 \item{address}{a character vector that contains address(es)}
