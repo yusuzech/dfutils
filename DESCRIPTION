@@ -11,5 +11,6 @@ LazyData: true
 Imports:
     tidyverse
 Suggests:
-    googleway
+    googleway,
+    openxlsx
 RoxygenNote: 6.1.1

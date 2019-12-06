@@ -1,4 +1,4 @@
-#' get geocode safely, it will never be interrupted
+#' A warpper on \code{googleway::google_geocode()}: get geocode from google safely
 #'
 #' @param address address, vector length of one
 #' @param apikey google's apikey
@@ -99,9 +99,11 @@ safely_get_geocode <- function(address,apikey){
 #' \dontrun{
 #' apikey = your_apikey
 #' du_google_geocode(
-#'     "new york, usa",
-#'     "#####", # contains error
-#'     "canada, usa" # multiple matching results
+#'     c(
+#'         "new york, usa",
+#'         "#####", # contains error
+#'         "canada, usa" # multiple matching results
+#'     )
 #' )
 #' }
 #' @export

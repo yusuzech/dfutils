@@ -94,9 +94,11 @@ Below are explanations for comments:
 \dontrun{
 apikey = your_apikey
 du_google_geocode(
-    "new york, usa",
-    "#####", # contains error
-    "canada, usa" # multiple matching results
+    c(
+        "new york, usa",
+        "#####", # contains error
+        "canada, usa" # multiple matching results
+    )
 )
 }
 }

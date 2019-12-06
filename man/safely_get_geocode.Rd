@@ -2,7 +2,7 @@
 % Please edit documentation in R/google_api.R
 \name{safely_get_geocode}
 \alias{safely_get_geocode}
-\title{get geocode safely, it will never be interrupted}
+\title{A warpper on \code{googleway::google_geocode()}: get geocode from google safely}
 \usage{
 safely_get_geocode(address, apikey)
 }
@@ -15,5 +15,5 @@ safely_get_geocode(address, apikey)
 a list of google's geocode service result
 }
 \description{
-get geocode safely, it will never be interrupted
+A warpper on \code{googleway::google_geocode()}: get geocode from google safely
 }
